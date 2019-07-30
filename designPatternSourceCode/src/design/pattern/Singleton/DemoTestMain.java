@@ -1,4 +1,4 @@
-package design.pattern.Singleton;
+package design.pattern.singleton;
 
 public class DemoTestMain {
     public static void main(String[] args) {

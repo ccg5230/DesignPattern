@@ -1,4 +1,4 @@
-package design.pattern.Singleton;
+package design.pattern.singleton;
 
 /**
  * 饿汉式（静态常量）

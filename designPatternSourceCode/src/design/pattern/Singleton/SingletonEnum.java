@@ -1,4 +1,4 @@
-package design.pattern.Singleton;
+package design.pattern.singleton;
 
 public enum SingletonEnum {
     /**

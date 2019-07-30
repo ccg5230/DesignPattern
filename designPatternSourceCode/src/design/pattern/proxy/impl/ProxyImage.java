@@ -4,18 +4,16 @@ import design.pattern.proxy.Image;
 
 public class ProxyImage implements Image {
     //接收保存目标对象
-    private RealImage realImage;
-    private String fileName;
+    private Image target;
 
-    public ProxyImage(String fileName){
-        this.fileName = fileName;
+    public ProxyImage(Image target){
+        this.target=target;
     }
 
     @Override
     public void display() {
-        if(realImage == null){
-            realImage = new RealImage(fileName);
-        }
-        realImage.display();
+        System.out.println("静态代理开始事务...");
+        target.display();
+        System.out.println("静态代理提交事务...");
     }
 }

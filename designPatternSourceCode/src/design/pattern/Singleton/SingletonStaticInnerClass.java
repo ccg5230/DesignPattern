@@ -1,4 +1,4 @@
-package design.pattern.Singleton;
+package design.pattern.singleton;
 
 /**
  * 静态内部类[推荐用]

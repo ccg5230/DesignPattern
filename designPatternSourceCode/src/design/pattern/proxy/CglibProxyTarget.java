@@ -3,7 +3,7 @@ package design.pattern.proxy;
 /**
  * cglib代理目标对象,没有实现任何接口：
  * 代理的类不能为final,否则报错
- * 4目标对象的方法如果为final/static,那么就不会被拦截,即不会执行目标对象额外的业务方法.
+ * 目标对象的方法如果为final/static,那么就不会被拦截,即不会执行目标对象额外的业务方法.
  */
 public class CglibProxyTarget {
     // 可以被代理

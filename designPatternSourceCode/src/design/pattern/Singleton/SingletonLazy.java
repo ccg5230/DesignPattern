@@ -1,4 +1,4 @@
-package design.pattern.Singleton;
+package design.pattern.singleton;
 
 /**
  * 懒汉式(线程安全，同步方法)[不推荐用]
